@@ -1,0 +1,8 @@
+<group name="sysmon, windows">
+  <rule id="100001" level="12">
+    <if_group>sysmon</if_group>
+    <field name="win.system.eventID">^3$</field>
+    <field name="win.eventdata.destinationPort">^4444$</field>
+    <description>Critical Outbound Connection</description>
+  </rule>
+</group>
