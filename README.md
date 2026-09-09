@@ -1,0 +1,1 @@
+# Wazuh-Sysmon-Outbound-Detection
