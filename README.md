@@ -20,7 +20,7 @@ The following custom rule (ID: 100001) was implemented in `/var/ossec/etc/rules/
     <description>Critical Outbound Connection</description>
   </rule>
 </group>
-'''
+```
 ## Proof of Concept & Execution
 
 ### 1. Connection Simulation
